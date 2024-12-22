@@ -29,10 +29,12 @@ This is the backend API for the Todo List App, built with Express.js, Prisma, an
    npm install
 3. setup database
    update .env file,  DATABASE_URL="mysql://username:password@localhost:3306/database_name"
-   run prisma : npx prisma migrate dev
-4. start backend server
+   run prisma :
+    ```bash
+   npx prisma migrate dev
+5. start backend server
    npm run dev
-5. The API will be available at: http://localhost:4000
+6. The API will be available at: http://localhost:4000
 
 
 # API Endpoints
