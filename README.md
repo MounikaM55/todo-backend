@@ -37,7 +37,9 @@ This is the backend API for the Todo List App, built with Express.js, Prisma, an
 
 # API Endpoints
 Base URL: http://localhost:4000
+
 Method	Endpoint	Description	Example Payload
+
 GET	/tasks	Fetch all tasks	-
 POST	/tasks	Create a new task	{ "title": "Task", "color": "red", "completed": false }
 PUT	/tasks/:id	Update a task	{ "title": "New Task", "completed": true }
