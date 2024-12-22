@@ -40,9 +40,12 @@ Base URL: http://localhost:4000
 
 Method	Endpoint	Description	Example Payload
 
-GET	/tasks	Fetch all tasks	-
+GET	/tasks	Fetch all tasks	
+
 POST	/tasks	Create a new task	{ "title": "Task", "color": "red", "completed": false }
+
 PUT	/tasks/:id	Update a task	{ "title": "New Task", "completed": true }
+
 DELETE	/tasks/:id	Delete a task	-
 
 
